@@ -1,11 +1,11 @@
 {
-  "name": "streelogy",
+  "name": "chatio",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -19,9 +19,14 @@
     "morgan": "~1.9.1",
     "mysql": "^2.18.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dheerajkumardev033/chatio.git"
+  },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^2.0.7"
-  }
+  "bugs": {
+    "url": "https://github.com/dheerajkumardev033/chatio/issues"
+  },
+  "homepage": "https://github.com/dheerajkumardev033/chatio#readme"
 }
